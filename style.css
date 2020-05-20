@@ -1,0 +1,45 @@
+.card-img-top {
+
+  max-width: 100%;
+   height: auto;
+
+}
+
+a {
+
+
+  font-weight: bold;
+}
+body {
+    animation: colorchange 60s infinite;
+    -webkit-animation: colorchange 60s infinite;
+}
+
+
+
+@keyframes colorchange {
+      0%   {background: #C4454E;}
+      11%  {background: #C97E47;}
+      22%  {background: #98BD43;}
+      33%  {background: #4AA63B;}
+      44%  {background: #2C7D74;}
+      55%  {background: #187feb;}
+      66%  {background: #7133ac;}
+      77%  {background: #9D3777;}
+      88%  {background: #ac336e;}
+      100% {background: #C4454E;}
+}
+
+@-webkit-keyframes colorchange
+{
+      0%   {background: #C4454E;}
+      11%  {background: #C97E47;}
+      22%  {background: #98BD43;}
+      33%  {background: #4AA63B;}
+      44%  {background: #2C7D74;}
+      55%  {background: #187feb;}
+      66%  {background: #7133ac;}
+      77%  {background: #9D3777;}
+      88%  {background: #ac336e;}
+      100% {background: #C4454E;}
+}

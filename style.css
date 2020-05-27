@@ -1,19 +1,54 @@
-.card-img-top {
-
-  max-width: 100%;
-   height: auto;
-
+.noselect {
+    cursor: default;
 }
 
-a {
-
-
-  font-weight: bold;
+.card {
+ margin: auto;
+ text-align: center;
 }
+
+.namecolor {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    -webkit-animation:colorchange1 20s infinite alternate;
+}
+
+a, p {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
     animation: colorchange 60s infinite;
     -webkit-animation: colorchange 60s infinite;
 }
+
+@keyframes colorchange1 {
+      0%   {color: #C4454E;}
+      11%  {color: #C97E47;}
+      22%  {color: #98BD43;}
+      33%  {color: #4AA63B;}
+      44%  {color: #2C7D74;}
+      55%  {color: #187feb;}
+      66%  {color: #7133ac;}
+      77%  {color: #9D3777;}
+      88%  {color: #ac336e;}
+      100% {color: #C4454E;}
+}
+
+@-webkit-keyframes colorchange1
+{
+      0%   {color: #C4454E;}
+      11%  {color: #C97E47;}
+      22%  {color: #98BD43;}
+      33%  {color: #4AA63B;}
+      44%  {color: #2C7D74;}
+      55%  {color: #187feb;}
+      66%  {color: #7133ac;}
+      77%  {color: #9D3777;}
+      88%  {color: #ac336e;}
+      100% {color: #C4454E;}
+}
+
 
 
 

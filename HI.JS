@@ -1,0 +1,1 @@
+onload=alert('XSS')
